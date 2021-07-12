@@ -17,14 +17,6 @@ class _BodyState extends State<Body> {
   List<Map<String, String>> splashData = [
     {
       "text": "Bienvenido a EducaChile!",
-      "image": "assets/images/splash_1.png"
-    },
-    {
-      "text":
-          "Aprenderás con nosotros \nde una forma efectiva",
-      "image": "assets/images/splash_2.png"
-    },
-    {
       "text": "Con ayuda de tutores \ntodo es más fácil!",
       "image": "assets/images/splash_3.png"
     },
