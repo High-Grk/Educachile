@@ -51,13 +51,6 @@ class _BodyState extends State<Body> {
                 child: Column(
                   children: <Widget>[
                     Spacer(),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: List.generate(
-                        splashData.length,
-                        (index) => buildDot(index: index),
-                      ),
-                    ),
                     Spacer(flex: 3),
                     DefaultButton(
                       text: "Continuar",
